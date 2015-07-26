@@ -36,6 +36,9 @@
 .\objects\main.o: .\System\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h
 .\objects\main.o: .\System\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
 .\objects\main.o: .\System\STM32F4BSP\Disco_Clock.h
+.\objects\main.o: .\System\STM32F4BSP\DISCO_USART.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\System\STM32F4BSP\DISCO_Button.h
 .\objects\main.o: .\System\FreeRTOS\include\FreeRTOS.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: .\Users\FreeRTOSConfig.h
@@ -45,3 +48,5 @@
 .\objects\main.o: .\System\FreeRTOS\include\mpu_wrappers.h
 .\objects\main.o: .\System\FreeRTOS\include\task.h
 .\objects\main.o: .\System\FreeRTOS\include\list.h
+.\objects\main.o: .\System\FreeRTOS\include\Queue.h
+.\objects\main.o: .\System\FreeRTOS\include\semphr.h

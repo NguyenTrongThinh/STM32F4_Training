@@ -27,8 +27,8 @@ void Disco_Button_Init(void)
 	
 	NVIC_PriorityGroupConfig( NVIC_PriorityGroup_4 );
 	NVIC_InitStructure.NVIC_IRQChannel = EXTI0_IRQn;
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x00;
-	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x04;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0x04;
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0x00;
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 }
